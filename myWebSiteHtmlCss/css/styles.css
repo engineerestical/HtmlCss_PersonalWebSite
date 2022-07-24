@@ -1,0 +1,469 @@
+/*HTML RESET*/
+html{
+    height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*LOGO FONT------font-family: 'Bebas Neue', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*LOGO FONT2-------font-family: 'Teko', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap');
+/*LOGO ALTLIK FONT-------font-family: 'Dongle', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+/*LOGO ALTLIK FONT-------font-family: 'Sofia Pro', sans-serif;*/
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('bebasneue-regular-webfont.woff2') format('woff2'),
+         url('bebasneue-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+
+nav{
+   width: 90%;
+   margin: 30px auto;
+   
+}
+
+
+
+.logo, .logo-2{
+    width: 45%;
+    float: left;
+}
+
+.animate{
+    animation: fade 2s infinite;
+}
+
+@keyframes fade {
+    0%{
+        color: white;
+    }
+
+    50%{
+        color: transparent;
+    }
+    
+    100%{
+        color: white;
+    }
+}
+
+.animate2{
+    animation: fade2 2s infinite;
+}
+
+@keyframes fade2 {
+    0%{
+        color: black;
+    }
+
+    50%{
+        color: transparent;
+    }
+    
+    100%{
+        color: black;
+    }
+}
+
+.menu{
+    width: 55%;
+    display: inline-block;
+}
+
+
+.menu-item{
+    float: left;
+    text-align: center;
+    font-family: 'bebas_neueregular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: .1em;
+    line-height: 1em;
+    width: 16.6%;
+    height: 40px;
+    padding-top: 10px;
+}
+
+.menu-item a{
+    color: #fff;
+}
+
+.menu-item-2{
+    float: left;
+    text-align: center;
+    font-family: 'bebas_neueregular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 23px;
+    letter-spacing: .1em;
+    line-height: 1em;
+    width: 16.6%;
+    height: 40px;
+    padding-top: 10px;
+}
+.menu-item-2 a{
+    color: black;
+}
+
+.contact{
+    background-color: rgb(9, 108, 121);
+}
+
+.contact a{
+    color: white;
+}
+
+.contact-2{
+    background-color: black;
+}
+
+.contact-2 a{
+    color: white;
+}
+
+.contact-icons{
+    padding: 10px 10px;
+}
+
+.contact-icons img{
+    width: 20%;
+}
+
+.logo{
+    margin-top: 10px;
+}
+.logo a h1{
+    color: #fff;
+    font-family: 'bebas_neueregular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 0em;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.logo a p{
+    color: #fff;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+}
+
+.logo-2{
+    margin-top: 10px;
+}
+.logo-2 a h1{
+    color: black;
+    font-family: 'bebas_neueregular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 0em;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+
+.logo-2 a p{
+    color: black;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 12px;
+    letter-spacing: .24em;
+    text-transform: uppercase;
+}
+
+
+
+
+.about-content{
+    
+    width: 60%;
+    margin: auto;
+    padding-top: 30px;
+    
+}
+.myphoto{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.myphoto img{
+    width: 100%;
+}
+
+
+
+.about-me{
+    padding: 30px;
+}
+
+.about-me h1{
+    color: black;
+    font-family: 'bebas_neueregular';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    letter-spacing: -.02em;
+    line-height: 1.15em;
+    text-transform: none;
+}
+
+.about-me h3{
+    color: black;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: .1em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
+.about-me p{
+    color: black;
+    font-family: 'Sofia Pro', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: .01em;
+    line-height: 2em;
+    text-align: center;
+}
+
+.get-in-touch{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: auto;
+    color: #222;
+    border-width: 2px;
+    border-style: solid;
+    background-color: transparent;
+    transition: 0.1s background-color linear, 0.1s color linear;
+    padding: 25px 46px;
+    font-family: sofia-pro;
+    font-size: 11px;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    border-color: #222;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: black;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    height: 200px;
+}
+
+.contact-content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+
+form{
+    text-align: left;
+    font-family: 'bebas_neueregular';
+}
+form input{
+    width: 80%;
+}
+form textarea{
+    width: 80%;
+    height: 150px;
+}
+
+.works-content{
+    position: relative;
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 6%;
+}
+
+.works-education{
+    float: none;
+    width: 80%;
+}
+.edu{
+    display: inline-block;
+    width: 80%;
+    margin: auto;
+}
+
+.edu-content{
+    float: left;
+    width: 40%;
+    margin-left: 10%;
+    margin-bottom: 30px;
+}
+
+
+.column-25{
+    width: 25%;
+}
+.column-50{
+    width: 50%;
+}
+.column-75{
+    width: 75%;
+}
+.column-100{
+    width: 100%;
+}
+
+.progress{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50px;
+    font-size: 25px;
+    margin: 30px auto;
+    background-color: black;
+}
+
+.services{
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.table{
+    margin-bottom: 50px;
+}
+
+.hobbies-content{
+    padding-bottom: 50px;
+}
+
+.hobbies-content img{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 992px) {
+
+    nav{
+        width: 100%;
+        margin: 30px auto;
+     }
+
+    .logo, .logo-2{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }  
+
+    .menu{
+        width: 100%
+    }
+    .about-content{
+        width: 90%;
+    }
+    .myphoto {
+        width: 50%;
+    }
+    .edu{
+        width: 100%;
+    }
+    .edu-content{
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    .hobbies-content img{
+        width: 80%;
+    }
+
+    .column-50{
+        width: 75%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .contact-icons{
+        display: none;
+    }
+    .menu-item, .menu-item-2{
+        width: 19%;
+    }
+    .about-content{
+        width: 100%;
+    }
+    .myphoto {
+        width: 50%;
+    }
+    .contact-content{
+        width: 80%;
+    }
+
+    .edu-content{
+        float: none;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .hobbies-content img{
+        width: 95%;
+    }
+
+    .works-content{
+
+        margin-left: 0;
+    }
+    .column-50{
+        width: 90%;
+    }
+}
